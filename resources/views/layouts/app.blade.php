@@ -17,6 +17,7 @@
     <link href="https://fonts.googleapis.com/css?family=Antic+Slab|Cormorant+Unicase:400,700|Glegoo|IM+Fell+DW+Pica:400i" rel="stylesheet"> 
 
     <!-- Styles -->
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.2/sandstone/bootstrap.min.css" rel="stylesheet" integrity="sha384-oCbSd1BBeFjYEul9+YuTFSFhA19lHemUQj8KD8Cgdb8zRxt6nOVsdTW43N1G2Hf2" crossorigin="anonymous">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
 </head>

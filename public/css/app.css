@@ -34,6 +34,12 @@ body {
   top: 18px;
 }
 
+.top-right a {
+  margin: 5px 20px;
+  color: #e0e0e0;
+  font-family: 'Glegoo', serif;
+}
+
 .content {
   text-align: center;
 }
