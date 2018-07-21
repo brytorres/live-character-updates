@@ -1,14 +1,14 @@
-
 // Fonts
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
-
+@import url('https://fonts.googleapis.com/css?family=Antic+Slab|Cormorant+Unicase:400,700|Glegoo|IM+Fell+DW+Pica:400i');
+;
 // Variables
 @import "variables";
-
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
-
-.navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
-}
+// Layout
+@import "layout/layout";
+@import "layout/base";
+// DM
+@import "dm/dm";
+// Player
+@import "player/player";
+// Modules
+@import "modules/modules";
