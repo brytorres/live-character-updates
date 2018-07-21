@@ -17,8 +17,9 @@
             </div>
         @endif
 
-    <div class="container">
-        <h1 class="title" style="text-align: center;">Live Character Updates</h1>
-        </div>
+        <section class="container welcome-section">
+            <h1 class="title" style="text-align: center;">Live Character Updates</h1>
+            <p class="tagline">A character and campaign progress tool for table-top RPG's</p>
+        </section>
     </div>
 @endsection
