@@ -1,0 +1,55 @@
+.player-dashboard {
+    h1,
+    h2,
+    h3,
+    h4,
+        {
+        text-align: center;
+    }
+    h3 {
+        color: $majestic;
+    }
+    .general,
+    .abilities,
+    .notes,
+    .defense,
+    .offense,
+    .skills,
+    .feats,
+    .money,
+    .spells,
+    .equipment,
+    .spells {
+        background: $light;
+        border-radius: 5px;
+        margin: 5px;
+        padding: 10px;
+
+        h4 {
+            margin-bottom: 0;
+        }
+        label {
+            font-size: 10px;
+            margin-bottom: 0;
+        }
+    }
+    .abilities {
+        input {
+            width: 100%;
+        }
+        .ability_title {
+            font-size: 10px;
+            color: lighten(#636b6f, 20%);
+        }
+        .ability_num {
+            font-size: 18px;
+            padding-left: 10px;
+        }
+    }
+    .defense,
+    .offense {
+        label {
+            font-size: 10px;
+        }
+    }
+}

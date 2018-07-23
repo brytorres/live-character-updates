@@ -1,8 +1,8 @@
 html,
 body {
-    background: #c31432;
-    background: -webkit-linear-gradient(45deg, #0f2027, #203a43, #2c5364);
+    background: #c31432; // background: -webkit-linear-gradient(45deg, #0f2027, #203a43, #2c5364);
     background: linear-gradient(45deg, #0f2027, #203a43, #2c5364);
+    background: $brown-grey;
     color: #636b6f;
     font-family: 'Glegoo', serif;
     font-weight: 100;
@@ -10,8 +10,38 @@ body {
     margin: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Glegoo', serif;
+    font-family: 'IM Fell DW Pica', serif;
+}
+
+
+.dark {
+    color: $dark;
+}
+
+.brown-grey {
+    color: $brown-grey;
+}
+
+.metal-grey {
+    color: $metal-grey;
+}
+
+.majestic {
+    color: $majestic;
+}
+
+.light {
+    color: $light;
+}
+
 .card {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.1);
     border: 1px solid rgba(0, 0, 0, 0.3);
 }
 

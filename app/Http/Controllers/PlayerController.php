@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class PlayerController extends Controller
 {
@@ -23,6 +24,8 @@ class PlayerController extends Controller
      */
     public function index()
     {
-        return view('pages.player.player-home');
+        $skills = DB::table('skills')->where('is_active', 1)->get();
+        
+        return view('pages.player.player-home', compact('skills'));
     }
 }

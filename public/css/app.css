@@ -1,7 +1,8 @@
-@import url(https://fonts.googleapis.com/css?family=Antic+Slab|Cormorant+Unicase:400,700|Glegoo|IM+Fell+DW+Pica:400i);html,
+@import url(https://fonts.googleapis.com/css?family=Antic+Slab|Glegoo:400,700|IM+Fell+DW+Pica:400,400i);html,
 body {
   background: #c31432;
   background: linear-gradient(45deg, #0f2027, #203a43, #2c5364);
+  background: #3d3b38;
   color: #636b6f;
   font-family: 'Glegoo', serif;
   font-weight: 100;
@@ -9,8 +10,37 @@ body {
   margin: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Glegoo', serif;
+  font-family: 'IM Fell DW Pica', serif;
+}
+
+.dark {
+  color: #232323;
+}
+
+.brown-grey {
+  color: #3d3b38;
+}
+
+.metal-grey {
+  color: #596869;
+}
+
+.majestic {
+  color: #8e123b;
+}
+
+.light {
+  color: #e0e0e0;
+}
+
 .card {
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
@@ -86,5 +116,81 @@ body {
 .welcome-section .tagline {
   text-align: center;
   color: #e0e0e0;
+}
+
+.player-dashboard h1,
+.player-dashboard h2,
+.player-dashboard h3,
+.player-dashboard h4 {
+  text-align: center;
+}
+
+.player-dashboard h3 {
+  color: #8e123b;
+}
+
+.player-dashboard .general,
+.player-dashboard .abilities,
+.player-dashboard .notes,
+.player-dashboard .defense,
+.player-dashboard .offense,
+.player-dashboard .skills,
+.player-dashboard .feats,
+.player-dashboard .money,
+.player-dashboard .spells,
+.player-dashboard .equipment,
+.player-dashboard .spells {
+  background: #e0e0e0;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+}
+
+.player-dashboard .general h4,
+.player-dashboard .abilities h4,
+.player-dashboard .notes h4,
+.player-dashboard .defense h4,
+.player-dashboard .offense h4,
+.player-dashboard .skills h4,
+.player-dashboard .feats h4,
+.player-dashboard .money h4,
+.player-dashboard .spells h4,
+.player-dashboard .equipment h4,
+.player-dashboard .spells h4 {
+  margin-bottom: 0;
+}
+
+.player-dashboard .general label,
+.player-dashboard .abilities label,
+.player-dashboard .notes label,
+.player-dashboard .defense label,
+.player-dashboard .offense label,
+.player-dashboard .skills label,
+.player-dashboard .feats label,
+.player-dashboard .money label,
+.player-dashboard .spells label,
+.player-dashboard .equipment label,
+.player-dashboard .spells label {
+  font-size: 10px;
+  margin-bottom: 0;
+}
+
+.player-dashboard .abilities input {
+  width: 100%;
+}
+
+.player-dashboard .abilities .ability_title {
+  font-size: 10px;
+  color: #969ea2;
+}
+
+.player-dashboard .abilities .ability_num {
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.player-dashboard .defense label,
+.player-dashboard .offense label {
+  font-size: 10px;
 }
 

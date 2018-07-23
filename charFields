@@ -1,0 +1,332 @@
+// GENERAL
+character name
+player name
+race
+character class
+class level
+alignment
+    moral
+    forces
+languages
+background
+image
+homeland
+deity
+size
+gender
+age
+height
+weight
+hair
+eyes
+notes
+
+// ABILITIES
+str_score
+str_mod
+str_temp_score
+str_temp_mod
+dex_score
+dex_mod
+dex_temp_score
+dex_temp_mod
+con_score
+con_mod
+con_temp_score
+con_temp_mod
+int_score
+int_mod
+int_temp_score
+int_temp_mod
+wis_score
+wis_mod
+wis_temp_score
+wis_temp_mod
+char_score
+char_mod
+char_temp_score
+char_temp_mod
+
+// DEFENSE
+armor_class_total
+armor_bonus
+shield_bonus
+dex_modifier
+size_modifier
+natural_armor
+deflection
+misc_armor_mod
+misc_armor_mod_notes strng
+touch_armor_class
+flat_footed_armor_class
+other_ac_mods strng
+hit_points_total
+hit_points_current
+non_lethal_damage
+damage_reduction
+spell_resistance
+fortitude_total
+fortitude_base_save
+fortitude_ability_mod
+fortitude_magic_mod
+fortitude_misc_mod
+fortitude_temp_mod
+fortitude_other_mods
+reflex_total
+reflex_base_save
+reflex_ability_mod
+reflex_magic_mod
+reflex_misc_mod
+reflex_temp_mod
+reflex_other_mods
+will_total
+will_base_save
+will_ability_mod
+will_magic_mod
+will_misc_mod
+will_temp_mod
+will_other_mods
+resistances str
+immunities strbng
+cmd_total
+cmd_base_attack_bonus
+cmd_str_mod
+cmd_dex_mod
+cmd_size_mod
+cmd_misc_mods
+cmd_temp_mods
+
+// OFFENSE
+initiative_total
+initiative_dex_mod
+initiative_misc_mod
+base_attack_bonus
+conditional_mods
+conditional_mod_notes
+speed_base
+speed_armor
+speed_fly
+speed_swim
+spped_climb
+speed_burrow
+speed_temp_mods
+cmb_total
+cmb_base_attack_bonus
+cmb_str_mod
+cmb_dex_mod
+cmb_size_mod
+cmb_misc_mods
+cmb_temp_mods
+melee_attacks
+    weapon
+    attack_bonus
+    damage
+    critical
+    type
+    notes
+ranged_attacks
+    weapon
+    attack_bonus
+    damage
+    critical
+    type
+    ammunition
+    notes
+
+// SKILLS
+skills
+    skill_name
+    total
+    ability_mod_type
+    ability_mod_total
+    ranks
+    class
+    racial
+    trait
+    misc
+skills_conditional_mods
+skills_conditional_mod_notes
+
+xp_total
+xp_add
+xp_current_level
+xp_level_1
+xp_level_2
+xp_level_3
+xp_level_4
+xp_level_5
+xp_level_6
+xp_level_7
+xp_level_8
+xp_level_9
+xp_level_10
+xp_level_11
+xp_level_12
+xp_level_13
+xp_level_14
+xp_level_15
+xp_level_16
+xp_level_17
+xp_level_18
+xp_level_19
+xp_level_20
+
+// FEATS_SPECIAL_ABILITIES
+feats
+    name
+    type
+    notes
+special_abilities
+    name
+    type (ex, sp, su)
+    notes
+traits
+    name
+    type
+    notes
+
+// EQUIPMENT_MONEY
+platinum_pieces
+gold_pieces
+silver_pieces
+copper_pieces
+gems
+art
+other_treasure
+ac_items_total_bonus
+ac_items_check_penalty
+ac_items_spell_failure
+ac_items_weight
+ac_items_list
+    item_name
+    bonus
+    type
+    check_penalty
+    spell_failure
+    weight
+    properties
+gear_list
+    item_name
+    type
+    location
+    quantity
+    weight_per_item
+    notes
+total_weight
+
+// SPELLS
+spelllike_ability
+    name
+    level
+    school
+    subschool
+    per_day
+    used
+    description
+    notes
+    + per day btn
+    at will btn
+spell
+    name
+    level (auto added)
+    school
+    subschool
+    prepared
+    cast
+    description
+    notes
+
+
+0_spells_known
+0_spells_list
+0_spell_dc
+0_spells_per_day
+0_bonus_spells
+1_spells_known
+1_spells_list
+1_spell_dc
+1_spells_per_day
+1_bonus_spells
+2_spells_known
+2_spells_list
+2_spell_dc
+2_spells_per_day
+2_bonus_spells
+3_spells_known
+3_spells_list
+3_spell_dc
+3_spells_per_day
+3_bonus_spells
+4_spells_known
+4_spells_list
+4_spell_dc
+4_spells_per_day
+4_bonus_spells
+5_spells_known
+5_spells_list
+5_spell_dc
+5_spells_per_day
+5_bonus_spells
+6_spells_known
+6_spells_list
+6_spell_dc
+6_spells_per_day
+6_bonus_spells
+7_spells_known
+7_spells_list
+7_spell_dc
+7_spells_per_day
+7_bonus_spells
+8_spells_known
+8_spells_list
+8_spell_dc
+8_spells_per_day
+8_bonus_spells
+9_spells_known
+9_spells_list
+9_spell_dc
+9_spells_per_day
+9_bonus_spells
+spelllike_list
+spells_conditional_mods
+spells_speciality
+
+
+
+// SKILL LIST
+acrobatics
+appraise
+bluff
+climb
+craft *3
+diplomacy
+disable_device
+disguise
+escape_artist
+fly
+handle_animal
+heal
+intimidate
+knowledge_arcana
+knowledge_dungeoneering
+knowledge_engineering
+knowledge_geography
+knowledge_history
+knowledge_local
+knowledge_nature
+knowledge_nobility
+knowledge_planes
+knowledge_religion
+linguistics
+perception
+perform
+perform
+profession *2
+ride
+sense_motive
+sleight_of_hand
+spellcraft
+stealth
+survival
+swim
+use_magic_device
